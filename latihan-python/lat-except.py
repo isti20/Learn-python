@@ -1,0 +1,1 @@
+warna = ['merah','Kuning','Hijau']
