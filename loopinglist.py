@@ -31,6 +31,12 @@ print('\n==Contoh List comprehension 02==')
 data2 = ['ucup',1,2,3,'otong']
 [print (f"data = {i}") for i in data]
 
+print('\n==Contoh List comprehension 03==')
+data3 = [1,2,3,4,5]
+
+data_kuadrat = [i**2 for i in data3]
+print(data_kuadrat)
+
 #Enumerate: mengambil index dan datanya
 print('\n==Enumerate==')
 data_list = ['ucup',1,2,3,'otong']

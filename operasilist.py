@@ -33,4 +33,4 @@ print('\n==Balik list==')
 data_angka.reverse()
 print('data direverse = {}'.format(data_angka))
 
-##hasil data angka dari belakang (dibalik)
+#hasil data angka dari belakang (dibalik)

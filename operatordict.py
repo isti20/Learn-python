@@ -20,8 +20,10 @@ print(f"apakah {KEY} ada di data_dict: {CHECKKEY}")
 #Mengakses value (read) dengan get
 print('\n==Mengakses value (read) dengan get==')
 print(data_dict["cup"])
-print(data_dict.get("cup"))
+print(data_dict.get("cup")) # pakai get untuk mengetahui data dict bukan (eror jika pakai get pada data bukan data dict)
 print(data_dict.get("kis")) #hasilnya none karena tidak ada data dengan key "kis"
+print(data_dict.get("kis","key tidak ditemukan")) # cek key dengan message tidak ditemukan
+print(data_dict.values())
 
 #Mengupdate data
 print('\n==Mengupdate data==')
@@ -54,7 +56,100 @@ print(data_dict)
 
 #Mendelete data pada dictionary
 print('\n==Mendelete data pada dictionary==')
-del data_dict["cup"]
+del data_dict["cup"] ##hasilnya: data ucup tidak ada (sudah dihapus)
+print(data_dict)
+data_dict.pop("tong")
 print(data_dict)
 
-##hasilnya: data ucup tidak ada (sudah dihapus)
+data_dict.popitem() #mendelete data terakhir yaitu faqih: faqihza
+print(data_dict)
+
+#Mengosongkan data pada ductionary
+print('\n==Mengosongkan data pada dictionary==')
+data_dict.clear()
+print(data_dict)
+
+#Melooping data pada dictionary
+print('\n==Melooping semua key names data pada dictionary==')
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict: #melooping key names data pada dictionary
+  print(x)
+
+for x in thisdict.keys():
+  print(x)
+
+print('\n==Melooping semua values data pada dictionary==')
+for x in thisdict:
+  print(thisdict[x])
+
+for x in thisdict.values():
+  print(x)
+
+print('\n==Melooping melalui keys dan values data pada dictionary==')
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x, y in thisdict.items():
+  print(x, y)
+
+#Mengcopy data pada dictionary
+print('\n==Mengcopy data pada dictionary==')
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = thisdict.copy()
+print(mydict)
+
+mydict = dict(thisdict)
+print(mydict)
+
+#Nested data pada dictionary
+print('\n==Nested data pada dictionary==')
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+print(myfamily)
+
+print('\natau')
+
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+
+print(myfamily)
+

@@ -41,7 +41,7 @@ print(g,'/',h,'=',hasil)
 print("\n==Operasi eksponen==")
 i = 10
 j = 3
-hasil = i**3
+hasil = i**j
 print(i,'**',j,'=',hasil)
 
 #Operasi modulus (sisa pembagian) %

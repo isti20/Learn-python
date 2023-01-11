@@ -8,15 +8,15 @@ Alur percabangan if:
 #Program if inline
 print("\n==Program If Inline==")
 nama = input("Siapa nama kamu?")
-if nama == "lala": print("hi lala") #aksi
-print("program selesai")
+if nama == "lala": print("hi lala") #aksi true
+print("program selesai") # end program
 
 #Program if indentation (menjorok ke tengah)
 print("\n==Program If Indentation==")
 warna = input("Sebutkan salah satu warna pelangi?")
 if warna == "merah":
-    print("selamat! jawaban kamu benar") #aksi
-    print("kamu dapat hadiah permen yeay!") #aksi
+    print("selamat! jawaban kamu benar") #aksi true
+    print("kamu dapat hadiah permen yeay!") #aksi true
 print("program selesai")
 
 #Program Else Statment

@@ -51,7 +51,7 @@ j = 2
 hasil = i != j
 print(i,'<=',j,'=',hasil)
 
-# is sebagai komparasi objek
+# is sebagai komparasi objek (operator identitas)
 print("\n==Lihat ID x dan Y sama==")
 x = 5 #ini adalah assignment membuat objek identity
 y = 5
@@ -75,8 +75,28 @@ hasil = o is p
 print(o,'is',p,'=',hasil)
 
 """Hasilnya: id o dan p beda karena nilai o dan p beda
-   yaitu o = 5 dan p = 6 (disimpan di memory yang sama). Hasilnya 
+   yaitu o = 5 dan p = 6 (disimpan di memory yang beda). Hasilnya 
    akan False
+"""
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is z)
+
+"""Hasilnya True karena z adalah objek yang sama dengan x
+"""
+
+print(x is y)
+
+"""Hasilnya False karena x bukan objek yang sama dengan y, 
+meskipun x dan y memiliki konten yang sama
+"""
+
+print(x == y)
+
+"""untuk mendemonstrasikan perbedaan antara "is" dan "==": 
+hasilnya True karena x sama dengan y
 """
 
 #contoh syntax eror

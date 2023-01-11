@@ -1,5 +1,50 @@
 """Learning Point
+
 - Variabel
 - Tipe data
 - String
+- Casting tipe data
+- Operasi aritmatika
+- Operasi komparasi
+- Operasi logika
+- Operator dict
+- Operator bitwise
+- Operator assignment
+- Input user
+- String (pengenalan)
+- String (operasi dan manipulasi part 1)
+- String (operasi dan manipulasi part 2)
+- String format
+- String format multiline
+- Latihan date and time
+- If dan else statement
+- Elif statement
+- Latihan percabangan: kalkulator sederhana
+- Perulangan: for loops
+- Perulangan: while loop
+- Continue, pass, dan break
+- Latihan perulangan
+- List
+- Manipulasi list
+- Operasi list
+- Copy list
+- Nested list / list bersarang
+- Looping list dan enumerate
+- Latihan list
+- Tuple dan set
+- Dictionary
+- Operasi dictionary
+- Looping dictionary
+- Copy and pop dictionary
+- Multy keys dan nesting dictionary
+- Latihan dictionary
+- Pengenalan fungsi
+- Fungsi dengan argumen/parameter (input)
+- Fungsi dengan return (kembalian)
+- Fungsi default argument
+- Latihan fungsi
+- Fungsi type hints: Type hints pada fungsi
+- *args pada fungsi
+- **kwargs pada fungsi
+- Fungsi lamda: anonymous atau lamda function
 """

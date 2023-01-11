@@ -1,6 +1,6 @@
 """For loop (perulangan).
 
-Alur loop (perulaangan)
+Alur loop (perulangan)
 1. Start
 2. For kondisi
 3. Aksi

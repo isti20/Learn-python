@@ -3,7 +3,7 @@
 Kategori tipe data python
 Text Type: str
 Numeric Types: int, float, complex
-Sequence Types: list, tuple, range
+Sequence (urutan) Types: list, tuple, range
 Mapping Type: dict
 Set Types: set, frozenset
 Boolean Type: bool
@@ -15,13 +15,13 @@ Data string bisa menggunakan single kutip atau double kutip
 """
 
 #Tipe data kumpulan karakter (string)
-print("==\nTipe data string==")
+print("\n==Tipe data string==")
 data_string = "lala"
 print(type(data_string))
 print("data : ", data_string, "bertipe : ", type(data_string))
 
 #Tipe data: angka satuan (integer)
-print("==Tipe data integer==")
+print("\n==Tipe data integer==")
 data_integer = 1
 print(type(data_integer))
 print("data : ",data_integer,"bertipe :",type(data_integer))

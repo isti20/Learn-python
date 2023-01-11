@@ -41,5 +41,5 @@ peserta_0[0] = "michael"
 print("peserta list_copy = {}".format(list_copy))
 print("\npeserta list_peserta = {}".format(list_peserta))
 
-##Hasilnya: data list_copy dan list_peserta berubah semua
+# Permasalahannya: hasilnya data list_copy berubah juga sama seperti list peserta
 

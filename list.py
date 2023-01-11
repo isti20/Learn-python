@@ -21,7 +21,7 @@ data_campuran = [1,'bala-bala',2,False]
 print(data_campuran)
 
 #Cara alternatif membuat list
-data_range = range(0,10) #range dari 0 sampai sebelum 10
+data_range = range(0,10) #range dari 0 sampai sebelum 10 --> 0,1,2,3,4,5,6,7,8,9
 print(data_range)
 data_list = list(data_range)
 print(data_list)

@@ -1,6 +1,6 @@
 """Dictionary"""
 
-#List --> contohnya array (mengakses menggunakan index)
+#List --> contohnya array (mengakses data menggunakan index)
 print('\n==List==')
 data_list = ['ucup','otong','dudung']
 print(data_list[0])
@@ -17,9 +17,13 @@ print(data_dict)
 
 print('\n==Contoh Dict==')
 data_nama = {
-    'cp':'ucup', #isinya bebas, bisa list juga
+    'cp':'ucup', #isinya bebas, bisa number, list juga
     'tg':'otong',
-    'dg':'dudung'
+    'dg':'dudung',
+    'nmbr': 100,
+    'list': data_list
 }
 
 print(data_nama['tg'])
+print(data_nama['nmbr'])
+print(data_nama['list'])

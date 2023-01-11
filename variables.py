@@ -8,7 +8,7 @@ x adalah variabel
 2 adalah value (nilai)
 = adalah assignment
 
-Penamaan varaibel:
+Penamaan variabel:
 - Harus dimulai dengan huruf atau karakter underscore _
 - Tidak bisa menggunakan spasi (hanya boleh berisi karakter alfanumerik A-z dan
   garis bawah _)

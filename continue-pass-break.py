@@ -1,39 +1,4 @@
-"""While loop (perulangan). While artinya saat.
-
-Alur perulangan while loop:
-1. while kondisi (boolean)
-2. aksi ini
-3. aksi itu
-4. akhir dari program
-"""
-
-print("\n==While loop==")
-#angka = 10
-#while angka > 5: # angka > 5 itu True (karena kondisi selalu True maka akan ngeloop terus)
-    #print("faqihza")
-#print("cukup") #outputnya mengulang 'faqihza' tanpa henti
-"""Untuk menjalankan while loop ini hilangkan # didepan kata print(cukup)
-da print("faqihza")
-"""
-"""Note:
-tekan alt+c untuk menghentikan output.
-"""
-print("\n==While loop dengan batas==")
-nomor = 0 #nomor dimulai dari 0 (lihat disini)
-while nomor < 5: #akan diulang sebanyak 5x dimulai dari 0
-    nomor += 1 #saat ketemu ini nomor akan ditambah 1
-    print("faqihza")
-print("selesai")
-
-"""Penjelasan output:
-faqihza (0+1=1)
-faqihza (1+1=2)
-faqihza (2+1=3)
-faqihza (3+1=4)
-faqihza (4+1=5) setelah ini selesai karena kondisinya < 5
-selesai 
-"""
-#Continue dan pass
+#Menyelipkan data
 print("\n==Menyelipkan data==")
 print("==contoh ke-1 menyelipkan data==")
 angkasaja = 0
@@ -60,6 +25,7 @@ while angkajuga < 5:
         print("whatsup!")
     print("selesai")
 
+# continue (melanjutkan ke step berikutnya)
 print("\n==Continue==")
 nomorlagi = 0
 while nomorlagi < 5:
@@ -71,6 +37,7 @@ while nomorlagi < 5:
     print("helllowwww")
 print("finish")
 
+# pass (bersifat dummy)
 print("\n==Pass==")
 nomorjuga = 0
 while nomorjuga < 5:
@@ -80,9 +47,10 @@ while nomorjuga < 5:
         print("Yuhuuu!")
     print(nomorjuga)
 
-"""def (fungsi) pass : fungsi ini tidak akan dieksekusi, itu salah
+"""pass : fungsi ini tidak akan dieksekusi, itu salah
    satu fungsi pass"""
 
+# break (berhenti)
 print("\n==Break==")
 print("\n==Contoh ke-1 Break==")
 nomorlain = 0
@@ -110,7 +78,7 @@ print("selesai")
 
 """Keterangan:
 saat kita input datanya bilangan positif maka kondisinya True,
-jadi akan menammpilkan data sebanyak jumlah angka yang diinput.
+jadi akan menampilkan data sebanyak jumlah angka yang diinput.
 Misal:3 maka outputnya:
 Count = 1
 Helllow!
